@@ -155,11 +155,20 @@ ul{
 
 }
 
+.dropdown li{
+
+}
+
+
 
 .dropdown a{
 	font-size: .8rem;
+	padding: 3px 10px;
 }
 
+.mobileCartSearch a{
+	padding: 3px;
+}
 .siteNav a:hover, 
 .dropdown a:hover,
 .fa-shopping-cart a:hover, 
@@ -1679,7 +1688,7 @@ font-size: .8rem;
 		}
 			.headerLogo img{
 			margin: 0 auto;
-			width: 13%;
+			width: 8%;
 
 		}
 
@@ -1747,7 +1756,7 @@ font-size: .8rem;
 		    height: calc(100% - 40px);
 			width: 100vw;
 		    max-width: 100%;
-		    padding: 0px 0px 25px 0px;
+		    padding: 0px 0px 10px 0px;
 		    opacity: 1;
 
 
@@ -1760,7 +1769,7 @@ font-size: .8rem;
 
 		.mobileCartSearch{
 			margin: 0 auto;
-			margin-top: 20px;
+			margin-top: 10px;
 			display: flex;
 			justify-content: space-between;
 			width: 60px;
@@ -2399,6 +2408,11 @@ input::-webkit-input-placeholder {
 .formContainer input::placeholder, 
 .formContainer textarea::placeholder{
 	font-size: .7rem;
+}
+
+.headerLogo img {
+    margin: 0 auto;
+    width: 10%;
 }
 }
 
